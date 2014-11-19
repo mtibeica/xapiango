@@ -1194,6 +1194,26 @@ func Swiggo_DeleteDirector_StemImplementation(p *_swig_DirectorStemImplementatio
 	p.SwigcptrStemImplementation = 0
 }
 
+type _swig_DirectorInterfaceStemImplementationApply interface {
+	Apply(string) string
+}
+
+func _swig_wrap__swig_DirectorStemImplementation_upcall_Apply(SwigcptrStemImplementation, string) string
+func (swig_p *_swig_DirectorStemImplementation) Apply(word string) string {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceStemImplementationApply); swig_ok {
+		return swig_g.Apply(word)
+	}
+	return _swig_wrap__swig_DirectorStemImplementation_upcall_Apply(swig_p.SwigcptrStemImplementation, word)
+}
+
+func DirectorStemImplementationApply(p StemImplementation, arg2 string) string {
+	return _swig_wrap__swig_DirectorStemImplementation_upcall_Apply(p.(*_swig_DirectorStemImplementation).SwigcptrStemImplementation, arg2)
+}
+
+func Swig_DirectorStemImplementation_callback_Apply(p *_swig_DirectorStemImplementation, arg2 string) (swig_result string) {
+	return p.Apply(arg2)
+}
+
 type _swig_DirectorInterfaceStemImplementationGet_description interface {
 	Get_description() string
 }
@@ -1233,6 +1253,12 @@ func DeleteStemImplementation(arg1 StemImplementation) {
 	_swig_wrap_delete_StemImplementation(arg1.Swigcptr())
 }
 
+func _swig_wrap_StemImplementation_Apply(SwigcptrStemImplementation, string) string
+
+func (arg1 SwigcptrStemImplementation) Apply(arg2 string) string {
+	return _swig_wrap_StemImplementation_Apply(arg1, arg2)
+}
+
 func _swig_wrap_StemImplementation_get_description(SwigcptrStemImplementation) string
 
 func (arg1 SwigcptrStemImplementation) Get_description() string {
@@ -1249,6 +1275,7 @@ type StemImplementation interface {
 	Swigcptr() uintptr
 	SwigIsStemImplementation()
 	DirectorInterface() interface{}
+	Apply(arg2 string) string
 	Get_description() string
 }
 
@@ -1294,6 +1321,12 @@ func DeleteStem(arg1 Stem) {
 	_swig_wrap_delete_Stem(arg1.Swigcptr())
 }
 
+func _swig_wrap_Stem_Apply(SwigcptrStem, string) string
+
+func (arg1 SwigcptrStem) Apply(arg2 string) string {
+	return _swig_wrap_Stem_Apply(arg1, arg2)
+}
+
 func _swig_wrap_Stem_get_description(SwigcptrStem) string
 
 func (arg1 SwigcptrStem) Get_description() string {
@@ -1304,6 +1337,7 @@ func StemGet_available_languages() string
 type Stem interface {
 	Swigcptr() uintptr
 	SwigIsStem()
+	Apply(arg2 string) string
 	Get_description() string
 }
 
@@ -2212,6 +2246,26 @@ func NewDirectorMatchDecider(v interface{}) MatchDecider {
 	return p
 }
 
+type _swig_DirectorInterfaceMatchDeciderApply interface {
+	Apply(Document) bool
+}
+
+func _swig_wrap__swig_DirectorMatchDecider_upcall_Apply(SwigcptrMatchDecider, uintptr) bool
+func (swig_p *_swig_DirectorMatchDecider) Apply(doc Document) bool {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceMatchDeciderApply); swig_ok {
+		return swig_g.Apply(doc)
+	}
+	return _swig_wrap__swig_DirectorMatchDecider_upcall_Apply(swig_p.SwigcptrMatchDecider, doc.Swigcptr())
+}
+
+func DirectorMatchDeciderApply(p MatchDecider, arg2 Document) bool {
+	return _swig_wrap__swig_DirectorMatchDecider_upcall_Apply(p.(*_swig_DirectorMatchDecider).SwigcptrMatchDecider, arg2.Swigcptr())
+}
+
+func Swig_DirectorMatchDecider_callback_Apply(p *_swig_DirectorMatchDecider, arg2 uintptr) (swig_result bool) {
+	return p.Apply(SwigcptrDocument(arg2))
+}
+
 func _swig_wrap_DeleteDirectorMatchDecider(uintptr)
 
 func DeleteDirectorMatchDecider(arg1 MatchDecider) {
@@ -2235,6 +2289,12 @@ func (p SwigcptrMatchDecider) DirectorInterface() interface{} {
 	return nil
 }
 
+func _swig_wrap_MatchDecider_Apply(SwigcptrMatchDecider, uintptr) bool
+
+func (arg1 SwigcptrMatchDecider) Apply(arg2 Document) bool {
+	return _swig_wrap_MatchDecider_Apply(arg1, arg2.Swigcptr())
+}
+
 func _swig_wrap_delete_MatchDecider(uintptr)
 
 func DeleteMatchDecider(arg1 MatchDecider) {
@@ -2251,6 +2311,7 @@ type MatchDecider interface {
 	Swigcptr() uintptr
 	SwigIsMatchDecider()
 	DirectorInterface() interface{}
+	Apply(arg2 Document) bool
 }
 
 type SwigcptrEnquire uintptr
@@ -2674,6 +2735,26 @@ func NewDirectorExpandDecider(v interface{}) ExpandDecider {
 	return p
 }
 
+type _swig_DirectorInterfaceExpandDeciderApply interface {
+	Apply(string) bool
+}
+
+func _swig_wrap__swig_DirectorExpandDecider_upcall_Apply(SwigcptrExpandDecider, string) bool
+func (swig_p *_swig_DirectorExpandDecider) Apply(term string) bool {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceExpandDeciderApply); swig_ok {
+		return swig_g.Apply(term)
+	}
+	return _swig_wrap__swig_DirectorExpandDecider_upcall_Apply(swig_p.SwigcptrExpandDecider, term)
+}
+
+func DirectorExpandDeciderApply(p ExpandDecider, arg2 string) bool {
+	return _swig_wrap__swig_DirectorExpandDecider_upcall_Apply(p.(*_swig_DirectorExpandDecider).SwigcptrExpandDecider, arg2)
+}
+
+func Swig_DirectorExpandDecider_callback_Apply(p *_swig_DirectorExpandDecider, arg2 string) (swig_result bool) {
+	return p.Apply(arg2)
+}
+
 func _swig_wrap_DeleteDirectorExpandDecider(uintptr)
 
 func DeleteDirectorExpandDecider(arg1 ExpandDecider) {
@@ -2697,6 +2778,12 @@ func (p SwigcptrExpandDecider) DirectorInterface() interface{} {
 	return nil
 }
 
+func _swig_wrap_ExpandDecider_Apply(SwigcptrExpandDecider, string) bool
+
+func (arg1 SwigcptrExpandDecider) Apply(arg2 string) bool {
+	return _swig_wrap_ExpandDecider_Apply(arg1, arg2)
+}
+
 func _swig_wrap_delete_ExpandDecider(uintptr)
 
 func DeleteExpandDecider(arg1 ExpandDecider) {
@@ -2713,6 +2800,7 @@ type ExpandDecider interface {
 	Swigcptr() uintptr
 	SwigIsExpandDecider()
 	DirectorInterface() interface{}
+	Apply(arg2 string) bool
 }
 
 type SwigcptrExpandDeciderAnd uintptr
@@ -2736,6 +2824,12 @@ func DeleteExpandDeciderAnd(arg1 ExpandDeciderAnd) {
 	_swig_wrap_delete_ExpandDeciderAnd(arg1.Swigcptr())
 }
 
+func _swig_wrap_ExpandDeciderAnd_Apply(SwigcptrExpandDeciderAnd, string) bool
+
+func (_swig_base SwigcptrExpandDeciderAnd) Apply(arg1 string) bool {
+	return _swig_wrap_ExpandDeciderAnd_Apply(_swig_base, arg1)
+}
+
 func (p SwigcptrExpandDeciderAnd) SwigIsExpandDecider() {
 }
 
@@ -2746,6 +2840,7 @@ func (p SwigcptrExpandDeciderAnd) SwigGetExpandDecider() ExpandDecider {
 type ExpandDeciderAnd interface {
 	Swigcptr() uintptr
 	SwigIsExpandDeciderAnd()
+	Apply(arg1 string) bool
 	SwigIsExpandDecider()
 	SwigGetExpandDecider() ExpandDecider
 }
@@ -2771,6 +2866,12 @@ func DeleteExpandDeciderFilterPrefix(arg1 ExpandDeciderFilterPrefix) {
 	_swig_wrap_delete_ExpandDeciderFilterPrefix(arg1.Swigcptr())
 }
 
+func _swig_wrap_ExpandDeciderFilterPrefix_Apply(SwigcptrExpandDeciderFilterPrefix, string) bool
+
+func (_swig_base SwigcptrExpandDeciderFilterPrefix) Apply(arg1 string) bool {
+	return _swig_wrap_ExpandDeciderFilterPrefix_Apply(_swig_base, arg1)
+}
+
 func (p SwigcptrExpandDeciderFilterPrefix) SwigIsExpandDecider() {
 }
 
@@ -2781,6 +2882,7 @@ func (p SwigcptrExpandDeciderFilterPrefix) SwigGetExpandDecider() ExpandDecider 
 type ExpandDeciderFilterPrefix interface {
 	Swigcptr() uintptr
 	SwigIsExpandDeciderFilterPrefix()
+	Apply(arg1 string) bool
 	SwigIsExpandDecider()
 	SwigGetExpandDecider() ExpandDecider
 }
@@ -2809,6 +2911,26 @@ func NewDirectorKeyMaker(v interface{}) KeyMaker {
 	return p
 }
 
+type _swig_DirectorInterfaceKeyMakerApply interface {
+	Apply(Document) string
+}
+
+func _swig_wrap__swig_DirectorKeyMaker_upcall_Apply(SwigcptrKeyMaker, uintptr) string
+func (swig_p *_swig_DirectorKeyMaker) Apply(doc Document) string {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceKeyMakerApply); swig_ok {
+		return swig_g.Apply(doc)
+	}
+	return _swig_wrap__swig_DirectorKeyMaker_upcall_Apply(swig_p.SwigcptrKeyMaker, doc.Swigcptr())
+}
+
+func DirectorKeyMakerApply(p KeyMaker, arg2 Document) string {
+	return _swig_wrap__swig_DirectorKeyMaker_upcall_Apply(p.(*_swig_DirectorKeyMaker).SwigcptrKeyMaker, arg2.Swigcptr())
+}
+
+func Swig_DirectorKeyMaker_callback_Apply(p *_swig_DirectorKeyMaker, arg2 uintptr) (swig_result string) {
+	return p.Apply(SwigcptrDocument(arg2))
+}
+
 func _swig_wrap_DeleteDirectorKeyMaker(uintptr)
 
 func DeleteDirectorKeyMaker(arg1 KeyMaker) {
@@ -2832,6 +2954,12 @@ func (p SwigcptrKeyMaker) DirectorInterface() interface{} {
 	return nil
 }
 
+func _swig_wrap_KeyMaker_Apply(SwigcptrKeyMaker, uintptr) string
+
+func (arg1 SwigcptrKeyMaker) Apply(arg2 Document) string {
+	return _swig_wrap_KeyMaker_Apply(arg1, arg2.Swigcptr())
+}
+
 func _swig_wrap_delete_KeyMaker(uintptr)
 
 func DeleteKeyMaker(arg1 KeyMaker) {
@@ -2848,6 +2976,7 @@ type KeyMaker interface {
 	Swigcptr() uintptr
 	SwigIsKeyMaker()
 	DirectorInterface() interface{}
+	Apply(arg2 Document) string
 }
 
 type SwigcptrMultiValueKeyMaker uintptr
@@ -2896,6 +3025,12 @@ func DeleteMultiValueKeyMaker(arg1 MultiValueKeyMaker) {
 	_swig_wrap_delete_MultiValueKeyMaker(arg1.Swigcptr())
 }
 
+func _swig_wrap_MultiValueKeyMaker_Apply(SwigcptrMultiValueKeyMaker, uintptr) string
+
+func (_swig_base SwigcptrMultiValueKeyMaker) Apply(arg1 Document) string {
+	return _swig_wrap_MultiValueKeyMaker_Apply(_swig_base, arg1.Swigcptr())
+}
+
 func (p SwigcptrMultiValueKeyMaker) SwigIsKeyMaker() {
 }
 
@@ -2907,6 +3042,7 @@ type MultiValueKeyMaker interface {
 	Swigcptr() uintptr
 	SwigIsMultiValueKeyMaker()
 	Add_value(a ...interface{})
+	Apply(arg1 Document) string
 	SwigIsKeyMaker()
 	SwigGetKeyMaker() KeyMaker
 }
@@ -2933,6 +3069,26 @@ func NewDirectorStopper(v interface{}) Stopper {
 	p := &_swig_DirectorStopper{0, v}
 	p.SwigcptrStopper = _swig_NewDirectorStopperStopper(p)
 	return p
+}
+
+type _swig_DirectorInterfaceStopperApply interface {
+	Apply(string) bool
+}
+
+func _swig_wrap__swig_DirectorStopper_upcall_Apply(SwigcptrStopper, string) bool
+func (swig_p *_swig_DirectorStopper) Apply(term string) bool {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceStopperApply); swig_ok {
+		return swig_g.Apply(term)
+	}
+	return _swig_wrap__swig_DirectorStopper_upcall_Apply(swig_p.SwigcptrStopper, term)
+}
+
+func DirectorStopperApply(p Stopper, arg2 string) bool {
+	return _swig_wrap__swig_DirectorStopper_upcall_Apply(p.(*_swig_DirectorStopper).SwigcptrStopper, arg2)
+}
+
+func Swig_DirectorStopper_callback_Apply(p *_swig_DirectorStopper, arg2 string) (swig_result bool) {
+	return p.Apply(arg2)
 }
 
 func _swig_wrap_DeleteDirectorStopper(uintptr)
@@ -2978,6 +3134,12 @@ func (p SwigcptrStopper) DirectorInterface() interface{} {
 	return nil
 }
 
+func _swig_wrap_Stopper_Apply(SwigcptrStopper, string) bool
+
+func (arg1 SwigcptrStopper) Apply(arg2 string) bool {
+	return _swig_wrap_Stopper_Apply(arg1, arg2)
+}
+
 func _swig_wrap_delete_Stopper(uintptr)
 
 func DeleteStopper(arg1 Stopper) {
@@ -3000,6 +3162,7 @@ type Stopper interface {
 	Swigcptr() uintptr
 	SwigIsStopper()
 	DirectorInterface() interface{}
+	Apply(arg2 string) bool
 	Get_description() string
 }
 
@@ -3030,6 +3193,12 @@ func DeleteSimpleStopper(arg1 SimpleStopper) {
 	_swig_wrap_delete_SimpleStopper(arg1.Swigcptr())
 }
 
+func _swig_wrap_SimpleStopper_Apply(SwigcptrSimpleStopper, string) bool
+
+func (_swig_base SwigcptrSimpleStopper) Apply(arg1 string) bool {
+	return _swig_wrap_SimpleStopper_Apply(_swig_base, arg1)
+}
+
 func (p SwigcptrSimpleStopper) SwigIsStopper() {
 }
 
@@ -3041,6 +3210,7 @@ type SimpleStopper interface {
 	Swigcptr() uintptr
 	SwigIsSimpleStopper()
 	Add(arg2 string)
+	Apply(arg1 string) bool
 	SwigIsStopper()
 	SwigGetStopper() Stopper
 }
@@ -3079,6 +3249,26 @@ func Swiggo_DeleteDirector_ValueRangeProcessor(p *_swig_DirectorValueRangeProces
 	p.SwigcptrValueRangeProcessor = 0
 }
 
+type _swig_DirectorInterfaceValueRangeProcessorApply interface {
+	Apply(*string, *string) uint
+}
+
+func _swig_wrap__swig_DirectorValueRangeProcessor_upcall_Apply(SwigcptrValueRangeProcessor, *string, *string) uint
+func (swig_p *_swig_DirectorValueRangeProcessor) Apply(begin *string, end *string) uint {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceValueRangeProcessorApply); swig_ok {
+		return swig_g.Apply(begin, end)
+	}
+	return _swig_wrap__swig_DirectorValueRangeProcessor_upcall_Apply(swig_p.SwigcptrValueRangeProcessor, begin, end)
+}
+
+func DirectorValueRangeProcessorApply(p ValueRangeProcessor, arg2 *string, arg3 *string) uint {
+	return _swig_wrap__swig_DirectorValueRangeProcessor_upcall_Apply(p.(*_swig_DirectorValueRangeProcessor).SwigcptrValueRangeProcessor, arg2, arg3)
+}
+
+func Swig_DirectorValueRangeProcessor_callback_Apply(p *_swig_DirectorValueRangeProcessor, arg2 *string, arg3 *string) (swig_result uint) {
+	return p.Apply(arg2, arg3)
+}
+
 type SwigcptrValueRangeProcessor uintptr
 
 func (p SwigcptrValueRangeProcessor) Swigcptr() uintptr {
@@ -3098,6 +3288,12 @@ func DeleteValueRangeProcessor(arg1 ValueRangeProcessor) {
 	_swig_wrap_delete_ValueRangeProcessor(arg1.Swigcptr())
 }
 
+func _swig_wrap_ValueRangeProcessor_Apply(SwigcptrValueRangeProcessor, *string, *string) uint
+
+func (arg1 SwigcptrValueRangeProcessor) Apply(arg2 *string, arg3 *string) uint {
+	return _swig_wrap_ValueRangeProcessor_Apply(arg1, arg2, arg3)
+}
+
 func _swig_wrap_new_ValueRangeProcessor() SwigcptrValueRangeProcessor
 
 func NewValueRangeProcessor() ValueRangeProcessor {
@@ -3108,6 +3304,7 @@ type ValueRangeProcessor interface {
 	Swigcptr() uintptr
 	SwigIsValueRangeProcessor()
 	DirectorInterface() interface{}
+	Apply(arg2 *string, arg3 *string) uint
 }
 
 type SwigcptrStringValueRangeProcessor uintptr
@@ -3157,6 +3354,12 @@ func DeleteStringValueRangeProcessor(arg1 StringValueRangeProcessor) {
 	_swig_wrap_delete_StringValueRangeProcessor(arg1.Swigcptr())
 }
 
+func _swig_wrap_StringValueRangeProcessor_Apply(SwigcptrStringValueRangeProcessor, *string, *string) uint
+
+func (_swig_base SwigcptrStringValueRangeProcessor) Apply(arg1 *string, arg2 *string) uint {
+	return _swig_wrap_StringValueRangeProcessor_Apply(_swig_base, arg1, arg2)
+}
+
 func (p SwigcptrStringValueRangeProcessor) SwigIsValueRangeProcessor() {
 }
 
@@ -3167,6 +3370,7 @@ func (p SwigcptrStringValueRangeProcessor) SwigGetValueRangeProcessor() ValueRan
 type StringValueRangeProcessor interface {
 	Swigcptr() uintptr
 	SwigIsStringValueRangeProcessor()
+	Apply(arg1 *string, arg2 *string) uint
 	SwigIsValueRangeProcessor()
 	SwigGetValueRangeProcessor() ValueRangeProcessor
 }
@@ -3265,6 +3469,12 @@ func DeleteDateValueRangeProcessor(arg1 DateValueRangeProcessor) {
 	_swig_wrap_delete_DateValueRangeProcessor(arg1.Swigcptr())
 }
 
+func _swig_wrap_DateValueRangeProcessor_Apply(SwigcptrDateValueRangeProcessor, *string, *string) uint
+
+func (_swig_base SwigcptrDateValueRangeProcessor) Apply(arg1 *string, arg2 *string) uint {
+	return _swig_wrap_DateValueRangeProcessor_Apply(_swig_base, arg1, arg2)
+}
+
 func (p SwigcptrDateValueRangeProcessor) SwigIsStringValueRangeProcessor() {
 }
 
@@ -3282,6 +3492,7 @@ func (p SwigcptrDateValueRangeProcessor) SwigGetValueRangeProcessor() ValueRange
 type DateValueRangeProcessor interface {
 	Swigcptr() uintptr
 	SwigIsDateValueRangeProcessor()
+	Apply(arg1 *string, arg2 *string) uint
 	SwigIsStringValueRangeProcessor()
 	SwigGetStringValueRangeProcessor() StringValueRangeProcessor
 	SwigIsValueRangeProcessor()
@@ -3335,6 +3546,12 @@ func DeleteNumberValueRangeProcessor(arg1 NumberValueRangeProcessor) {
 	_swig_wrap_delete_NumberValueRangeProcessor(arg1.Swigcptr())
 }
 
+func _swig_wrap_NumberValueRangeProcessor_Apply(SwigcptrNumberValueRangeProcessor, *string, *string) uint
+
+func (_swig_base SwigcptrNumberValueRangeProcessor) Apply(arg1 *string, arg2 *string) uint {
+	return _swig_wrap_NumberValueRangeProcessor_Apply(_swig_base, arg1, arg2)
+}
+
 func (p SwigcptrNumberValueRangeProcessor) SwigIsStringValueRangeProcessor() {
 }
 
@@ -3352,6 +3569,7 @@ func (p SwigcptrNumberValueRangeProcessor) SwigGetValueRangeProcessor() ValueRan
 type NumberValueRangeProcessor interface {
 	Swigcptr() uintptr
 	SwigIsNumberValueRangeProcessor()
+	Apply(arg1 *string, arg2 *string) uint
 	SwigIsStringValueRangeProcessor()
 	SwigGetStringValueRangeProcessor() StringValueRangeProcessor
 	SwigIsValueRangeProcessor()
@@ -3392,6 +3610,26 @@ func Swiggo_DeleteDirector_FieldProcessor(p *_swig_DirectorFieldProcessor) {
 	p.SwigcptrFieldProcessor = 0
 }
 
+type _swig_DirectorInterfaceFieldProcessorApply interface {
+	Apply(string) Query
+}
+
+func _swig_wrap__swig_DirectorFieldProcessor_upcall_Apply(SwigcptrFieldProcessor, string) SwigcptrQuery
+func (swig_p *_swig_DirectorFieldProcessor) Apply(str string) Query {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceFieldProcessorApply); swig_ok {
+		return swig_g.Apply(str)
+	}
+	return _swig_wrap__swig_DirectorFieldProcessor_upcall_Apply(swig_p.SwigcptrFieldProcessor, str)
+}
+
+func DirectorFieldProcessorApply(p FieldProcessor, arg2 string) Query {
+	return _swig_wrap__swig_DirectorFieldProcessor_upcall_Apply(p.(*_swig_DirectorFieldProcessor).SwigcptrFieldProcessor, arg2)
+}
+
+func Swig_DirectorFieldProcessor_callback_Apply(p *_swig_DirectorFieldProcessor, arg2 string) (swig_result SwigcptrQuery) {
+	return SwigcptrQuery(p.Apply(arg2).Swigcptr())
+}
+
 type SwigcptrFieldProcessor uintptr
 
 func (p SwigcptrFieldProcessor) Swigcptr() uintptr {
@@ -3411,6 +3649,12 @@ func DeleteFieldProcessor(arg1 FieldProcessor) {
 	_swig_wrap_delete_FieldProcessor(arg1.Swigcptr())
 }
 
+func _swig_wrap_FieldProcessor_Apply(SwigcptrFieldProcessor, string) SwigcptrQuery
+
+func (arg1 SwigcptrFieldProcessor) Apply(arg2 string) Query {
+	return _swig_wrap_FieldProcessor_Apply(arg1, arg2)
+}
+
 func _swig_wrap_new_FieldProcessor() SwigcptrFieldProcessor
 
 func NewFieldProcessor() FieldProcessor {
@@ -3421,6 +3665,7 @@ type FieldProcessor interface {
 	Swigcptr() uintptr
 	SwigIsFieldProcessor()
 	DirectorInterface() interface{}
+	Apply(arg2 string) Query
 }
 
 type SwigcptrQueryParser uintptr
@@ -3752,6 +3997,12 @@ func DeleteValueSetMatchDecider(arg1 ValueSetMatchDecider) {
 	_swig_wrap_delete_ValueSetMatchDecider(arg1.Swigcptr())
 }
 
+func _swig_wrap_ValueSetMatchDecider_Apply(SwigcptrValueSetMatchDecider, uintptr) bool
+
+func (_swig_base SwigcptrValueSetMatchDecider) Apply(arg1 Document) bool {
+	return _swig_wrap_ValueSetMatchDecider_Apply(_swig_base, arg1.Swigcptr())
+}
+
 func (p SwigcptrValueSetMatchDecider) SwigIsMatchDecider() {
 }
 
@@ -3764,6 +4015,7 @@ type ValueSetMatchDecider interface {
 	SwigIsValueSetMatchDecider()
 	Add_value(arg2 string)
 	Remove_value(arg2 string)
+	Apply(arg1 Document) bool
 	SwigIsMatchDecider()
 	SwigGetMatchDecider() MatchDecider
 }
@@ -5062,6 +5314,27 @@ func Swiggo_DeleteDirector_MatchSpy(p *_swig_DirectorMatchSpy) {
 	p.SwigcptrMatchSpy = 0
 }
 
+type _swig_DirectorInterfaceMatchSpyApply interface {
+	Apply(Document, float64)
+}
+
+func _swig_wrap__swig_DirectorMatchSpy_upcall_Apply(SwigcptrMatchSpy, uintptr, float64)
+func (swig_p *_swig_DirectorMatchSpy) Apply(doc Document, wt float64) {
+	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfaceMatchSpyApply); swig_ok {
+		swig_g.Apply(doc, wt)
+		return
+	}
+	_swig_wrap__swig_DirectorMatchSpy_upcall_Apply(swig_p.SwigcptrMatchSpy, doc.Swigcptr(), wt)
+}
+
+func DirectorMatchSpyApply(p MatchSpy, arg2 Document, arg3 float64) {
+	_swig_wrap__swig_DirectorMatchSpy_upcall_Apply(p.(*_swig_DirectorMatchSpy).SwigcptrMatchSpy, arg2.Swigcptr(), arg3)
+}
+
+func Swig_DirectorMatchSpy_callback_Apply(p *_swig_DirectorMatchSpy, arg2 uintptr, arg3 float64) {
+	p.Apply(SwigcptrDocument(arg2), arg3)
+}
+
 type _swig_DirectorInterfaceMatchSpyName interface {
 	Name() string
 }
@@ -5148,6 +5421,12 @@ func DeleteMatchSpy(arg1 MatchSpy) {
 	_swig_wrap_delete_MatchSpy(arg1.Swigcptr())
 }
 
+func _swig_wrap_MatchSpy_Apply(SwigcptrMatchSpy, uintptr, float64)
+
+func (arg1 SwigcptrMatchSpy) Apply(arg2 Document, arg3 float64) {
+	_swig_wrap_MatchSpy_Apply(arg1, arg2.Swigcptr(), arg3)
+}
+
 func _swig_wrap_MatchSpy_name(SwigcptrMatchSpy) string
 
 func (arg1 SwigcptrMatchSpy) Name() string {
@@ -5170,6 +5449,7 @@ type MatchSpy interface {
 	Swigcptr() uintptr
 	SwigIsMatchSpy()
 	DirectorInterface() interface{}
+	Apply(arg2 Document, arg3 float64)
 	Name() string
 	Merge_results(arg2 string)
 	Get_description() string
@@ -5243,6 +5523,12 @@ func DeleteValueCountMatchSpy(arg1 ValueCountMatchSpy) {
 	_swig_wrap_delete_ValueCountMatchSpy(arg1.Swigcptr())
 }
 
+func _swig_wrap_ValueCountMatchSpy_Apply(SwigcptrValueCountMatchSpy, uintptr, float64)
+
+func (_swig_base SwigcptrValueCountMatchSpy) Apply(arg1 Document, arg2 float64) {
+	_swig_wrap_ValueCountMatchSpy_Apply(_swig_base, arg1.Swigcptr(), arg2)
+}
+
 func (p SwigcptrValueCountMatchSpy) SwigIsMatchSpy() {
 }
 
@@ -5258,6 +5544,7 @@ type ValueCountMatchSpy interface {
 	Values_end() TermIterator
 	Top_values_begin(arg2 int) TermIterator
 	Top_values_end(arg2 int) TermIterator
+	Apply(arg1 Document, arg2 float64)
 	SwigIsMatchSpy()
 	SwigGetMatchSpy() MatchSpy
 }
@@ -5601,6 +5888,42 @@ func (arg1 SwigcptrLatLongMetric) Pointwise_distance(arg2 LatLongCoord, arg3 Lat
 	return _swig_wrap_LatLongMetric_pointwise_distance(arg1, arg2.Swigcptr(), arg3.Swigcptr())
 }
 
+func _swig_wrap_LatLongMetric_Apply__SWIG_0(SwigcptrLatLongMetric, uintptr, uintptr) float64
+
+func (arg1 SwigcptrLatLongMetric) Apply__SWIG_0(arg2 LatLongCoords, arg3 LatLongCoords) float64 {
+	return _swig_wrap_LatLongMetric_Apply__SWIG_0(arg1, arg2.Swigcptr(), arg3.Swigcptr())
+}
+
+func _swig_wrap_LatLongMetric_Apply__SWIG_1(SwigcptrLatLongMetric, uintptr, string) float64
+
+func (arg1 SwigcptrLatLongMetric) Apply__SWIG_1(arg2 LatLongCoords, arg3 string) float64 {
+	return _swig_wrap_LatLongMetric_Apply__SWIG_1(arg1, arg2.Swigcptr(), arg3)
+}
+
+func _swig_wrap_LatLongMetric_Apply__SWIG_2(SwigcptrLatLongMetric, uintptr, string, int) float64
+
+func (arg1 SwigcptrLatLongMetric) Apply__SWIG_2(arg2 LatLongCoords, arg3 string, arg4 int) float64 {
+	return _swig_wrap_LatLongMetric_Apply__SWIG_2(arg1, arg2.Swigcptr(), arg3, arg4)
+}
+
+func (p SwigcptrLatLongMetric) Apply(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[1].(SwigcptrLatLongCoords); !ok {
+			goto check_1
+		}
+		return p.Apply__SWIG_0(a[0].(LatLongCoords), a[1].(LatLongCoords))
+	}
+check_1:
+	if argc == 2 {
+		return p.Apply__SWIG_1(a[0].(LatLongCoords), a[1].(string))
+	}
+	if argc == 3 {
+		return p.Apply__SWIG_2(a[0].(LatLongCoords), a[1].(string), a[2].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
 func _swig_wrap_LatLongMetric_name(SwigcptrLatLongMetric) string
 
 func (arg1 SwigcptrLatLongMetric) Name() string {
@@ -5618,6 +5941,7 @@ type LatLongMetric interface {
 	SwigIsLatLongMetric()
 	DirectorInterface() interface{}
 	Pointwise_distance(arg2 LatLongCoord, arg3 LatLongCoord) float64
+	Apply(a ...interface{}) float64
 	Name() string
 }
 
@@ -5659,6 +5983,42 @@ func DeleteGreatCircleMetric(arg1 GreatCircleMetric) {
 	_swig_wrap_delete_GreatCircleMetric(arg1.Swigcptr())
 }
 
+func _swig_wrap_GreatCircleMetric_Apply__SWIG_0(SwigcptrGreatCircleMetric, uintptr, uintptr) float64
+
+func (_swig_base SwigcptrGreatCircleMetric) Apply__SWIG_0(arg1 LatLongCoords, arg2 LatLongCoords) float64 {
+	return _swig_wrap_GreatCircleMetric_Apply__SWIG_0(_swig_base, arg1.Swigcptr(), arg2.Swigcptr())
+}
+
+func _swig_wrap_GreatCircleMetric_Apply__SWIG_1(SwigcptrGreatCircleMetric, uintptr, string) float64
+
+func (_swig_base SwigcptrGreatCircleMetric) Apply__SWIG_1(arg1 LatLongCoords, arg2 string) float64 {
+	return _swig_wrap_GreatCircleMetric_Apply__SWIG_1(_swig_base, arg1.Swigcptr(), arg2)
+}
+
+func _swig_wrap_GreatCircleMetric_Apply__SWIG_2(SwigcptrGreatCircleMetric, uintptr, string, int) float64
+
+func (_swig_base SwigcptrGreatCircleMetric) Apply__SWIG_2(arg1 LatLongCoords, arg2 string, arg3 int) float64 {
+	return _swig_wrap_GreatCircleMetric_Apply__SWIG_2(_swig_base, arg1.Swigcptr(), arg2, arg3)
+}
+
+func (p SwigcptrGreatCircleMetric) Apply(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 2 {
+		if _, ok := a[1].(SwigcptrLatLongCoords); !ok {
+			goto check_1
+		}
+		return p.Apply__SWIG_0(a[0].(LatLongCoords), a[1].(LatLongCoords))
+	}
+check_1:
+	if argc == 2 {
+		return p.Apply__SWIG_1(a[0].(LatLongCoords), a[1].(string))
+	}
+	if argc == 3 {
+		return p.Apply__SWIG_2(a[0].(LatLongCoords), a[1].(string), a[2].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
 func (p SwigcptrGreatCircleMetric) SwigIsLatLongMetric() {
 }
 
@@ -5669,6 +6029,7 @@ func (p SwigcptrGreatCircleMetric) SwigGetLatLongMetric() LatLongMetric {
 type GreatCircleMetric interface {
 	Swigcptr() uintptr
 	SwigIsGreatCircleMetric()
+	Apply(a ...interface{}) float64
 	SwigIsLatLongMetric()
 	SwigGetLatLongMetric() LatLongMetric
 }
@@ -5858,6 +6219,12 @@ func DeleteLatLongDistanceKeyMaker(arg1 LatLongDistanceKeyMaker) {
 	_swig_wrap_delete_LatLongDistanceKeyMaker(arg1.Swigcptr())
 }
 
+func _swig_wrap_LatLongDistanceKeyMaker_Apply(SwigcptrLatLongDistanceKeyMaker, uintptr) string
+
+func (_swig_base SwigcptrLatLongDistanceKeyMaker) Apply(arg1 Document) string {
+	return _swig_wrap_LatLongDistanceKeyMaker_Apply(_swig_base, arg1.Swigcptr())
+}
+
 func (p SwigcptrLatLongDistanceKeyMaker) SwigIsKeyMaker() {
 }
 
@@ -5868,6 +6235,7 @@ func (p SwigcptrLatLongDistanceKeyMaker) SwigGetKeyMaker() KeyMaker {
 type LatLongDistanceKeyMaker interface {
 	Swigcptr() uintptr
 	SwigIsLatLongDistanceKeyMaker()
+	Apply(arg1 Document) string
 	SwigIsKeyMaker()
 	SwigGetKeyMaker() KeyMaker
 }
@@ -7009,11 +7377,35 @@ func (p SwigcptrSwigDirector_Compactor) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
+type SwigcptrSwigDirector_KeyMaker uintptr
+type SwigDirector_KeyMaker interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_KeyMaker) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
 type SwigcptrSwigDirector_Stopper uintptr
 type SwigDirector_Stopper interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrSwigDirector_Stopper) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_ExpandDecider uintptr
+type SwigDirector_ExpandDecider interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_ExpandDecider) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_MatchDecider uintptr
+type SwigDirector_MatchDecider interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_MatchDecider) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -7038,6 +7430,22 @@ type Void interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrVoid) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_ValueRangeProcessor uintptr
+type SwigDirector_ValueRangeProcessor interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_ValueRangeProcessor) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrSwigDirector_FieldProcessor uintptr
+type SwigDirector_FieldProcessor interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrSwigDirector_FieldProcessor) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

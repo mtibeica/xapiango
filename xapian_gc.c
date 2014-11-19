@@ -2113,6 +2113,29 @@ _swiggo_wrap_DeleteDirector_StemImplementation(void *a, int32 n)
 	runtime·cgocallback(·Swiggo_DeleteDirector_StemImplementation, a, n);
 }
 
+#pragma dynimport _wrap__swig_DirectorStemImplementation_upcall_Apply _wrap__swig_DirectorStemImplementation_upcall_Apply ""
+extern void (*_wrap__swig_DirectorStemImplementation_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorStemImplementation_upcall_Apply)(void*) = _wrap__swig_DirectorStemImplementation_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorStemImplementation_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorStemImplementation_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorStemImplementation_callback_Apply _wrap_Swig_DirectorStemImplementation_callback_Apply
+extern void ·Swig_DirectorStemImplementation_callback_Apply();
+void
+_wrap_Swig_DirectorStemImplementation_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorStemImplementation_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap__swig_DirectorStemImplementation_upcall_Get_description _wrap__swig_DirectorStemImplementation_upcall_Get_description ""
 extern void (*_wrap__swig_DirectorStemImplementation_upcall_Get_description)(void*);
 static void (*x_wrap__swig_DirectorStemImplementation_upcall_Get_description)(void*) = _wrap__swig_DirectorStemImplementation_upcall_Get_description;
@@ -2147,6 +2170,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_StemImplementation, &p);
+}
+
+
+
+#pragma dynimport _wrap_StemImplementation_Apply _wrap_StemImplementation_Apply ""
+extern void (*_wrap_StemImplementation_Apply)(void*);
+static void (*x_wrap_StemImplementation_Apply)(void*) = _wrap_StemImplementation_Apply;
+
+void
+·_swig_wrap_StemImplementation_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap_StemImplementation_Apply, &p);
 }
 
 
@@ -2222,6 +2260,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_Stem, &p);
+}
+
+
+
+#pragma dynimport _wrap_Stem_Apply _wrap_Stem_Apply ""
+extern void (*_wrap_Stem_Apply)(void*);
+static void (*x_wrap_Stem_Apply)(void*) = _wrap_Stem_Apply;
+
+void
+·_swig_wrap_Stem_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap_Stem_Apply, &p);
 }
 
 
@@ -3756,6 +3809,29 @@ void
 
 
 
+#pragma dynimport _wrap__swig_DirectorMatchDecider_upcall_Apply _wrap__swig_DirectorMatchDecider_upcall_Apply ""
+extern void (*_wrap__swig_DirectorMatchDecider_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorMatchDecider_upcall_Apply)(void*) = _wrap__swig_DirectorMatchDecider_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorMatchDecider_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorMatchDecider_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorMatchDecider_callback_Apply _wrap_Swig_DirectorMatchDecider_callback_Apply
+extern void ·Swig_DirectorMatchDecider_callback_Apply();
+void
+_wrap_Swig_DirectorMatchDecider_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorMatchDecider_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap_DeleteDirectorMatchDecider _wrap_DeleteDirectorMatchDecider ""
 extern void (*_wrap_DeleteDirectorMatchDecider)(void*);
 static void (*x_wrap_DeleteDirectorMatchDecider)(void*) = _wrap_DeleteDirectorMatchDecider;
@@ -3778,6 +3854,21 @@ _swiggo_wrap_DeleteDirector_MatchDecider(void *a, int32 n)
 {
 	runtime·cgocallback(·Swiggo_DeleteDirector_MatchDecider, a, n);
 }
+
+#pragma dynimport _wrap_MatchDecider_Apply _wrap_MatchDecider_Apply ""
+extern void (*_wrap_MatchDecider_Apply)(void*);
+static void (*x_wrap_MatchDecider_Apply)(void*) = _wrap_MatchDecider_Apply;
+
+void
+·_swig_wrap_MatchDecider_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_MatchDecider_Apply, &p);
+}
+
+
 
 #pragma dynimport _wrap_delete_MatchDecider _wrap_delete_MatchDecider ""
 extern void (*_wrap_delete_MatchDecider)(void*);
@@ -4454,6 +4545,29 @@ void
 
 
 
+#pragma dynimport _wrap__swig_DirectorExpandDecider_upcall_Apply _wrap__swig_DirectorExpandDecider_upcall_Apply ""
+extern void (*_wrap__swig_DirectorExpandDecider_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorExpandDecider_upcall_Apply)(void*) = _wrap__swig_DirectorExpandDecider_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorExpandDecider_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorExpandDecider_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorExpandDecider_callback_Apply _wrap_Swig_DirectorExpandDecider_callback_Apply
+extern void ·Swig_DirectorExpandDecider_callback_Apply();
+void
+_wrap_Swig_DirectorExpandDecider_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorExpandDecider_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap_DeleteDirectorExpandDecider _wrap_DeleteDirectorExpandDecider ""
 extern void (*_wrap_DeleteDirectorExpandDecider)(void*);
 static void (*x_wrap_DeleteDirectorExpandDecider)(void*) = _wrap_DeleteDirectorExpandDecider;
@@ -4476,6 +4590,21 @@ _swiggo_wrap_DeleteDirector_ExpandDecider(void *a, int32 n)
 {
 	runtime·cgocallback(·Swiggo_DeleteDirector_ExpandDecider, a, n);
 }
+
+#pragma dynimport _wrap_ExpandDecider_Apply _wrap_ExpandDecider_Apply ""
+extern void (*_wrap_ExpandDecider_Apply)(void*);
+static void (*x_wrap_ExpandDecider_Apply)(void*) = _wrap_ExpandDecider_Apply;
+
+void
+·_swig_wrap_ExpandDecider_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ExpandDecider_Apply, &p);
+}
+
+
 
 #pragma dynimport _wrap_delete_ExpandDecider _wrap_delete_ExpandDecider ""
 extern void (*_wrap_delete_ExpandDecider)(void*);
@@ -4537,6 +4666,21 @@ void
 
 
 
+#pragma dynimport _wrap_ExpandDeciderAnd_Apply _wrap_ExpandDeciderAnd_Apply ""
+extern void (*_wrap_ExpandDeciderAnd_Apply)(void*);
+static void (*x_wrap_ExpandDeciderAnd_Apply)(void*) = _wrap_ExpandDeciderAnd_Apply;
+
+void
+·_swig_wrap_ExpandDeciderAnd_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ExpandDeciderAnd_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap_new_ExpandDeciderFilterPrefix _wrap_new_ExpandDeciderFilterPrefix ""
 extern void (*_wrap_new_ExpandDeciderFilterPrefix)(void*);
 static void (*x_wrap_new_ExpandDeciderFilterPrefix)(void*) = _wrap_new_ExpandDeciderFilterPrefix;
@@ -4567,6 +4711,21 @@ void
 
 
 
+#pragma dynimport _wrap_ExpandDeciderFilterPrefix_Apply _wrap_ExpandDeciderFilterPrefix_Apply ""
+extern void (*_wrap_ExpandDeciderFilterPrefix_Apply)(void*);
+static void (*x_wrap_ExpandDeciderFilterPrefix_Apply)(void*) = _wrap_ExpandDeciderFilterPrefix_Apply;
+
+void
+·_swig_wrap_ExpandDeciderFilterPrefix_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ExpandDeciderFilterPrefix_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap__swig_NewDirectorKeyMakerKeyMaker _wrap__swig_NewDirectorKeyMakerKeyMaker ""
 extern void (*_wrap__swig_NewDirectorKeyMakerKeyMaker)(void*);
 static void (*x_wrap__swig_NewDirectorKeyMakerKeyMaker)(void*) = _wrap__swig_NewDirectorKeyMakerKeyMaker;
@@ -4581,6 +4740,29 @@ void
 }
 
 
+
+#pragma dynimport _wrap__swig_DirectorKeyMaker_upcall_Apply _wrap__swig_DirectorKeyMaker_upcall_Apply ""
+extern void (*_wrap__swig_DirectorKeyMaker_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorKeyMaker_upcall_Apply)(void*) = _wrap__swig_DirectorKeyMaker_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorKeyMaker_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorKeyMaker_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorKeyMaker_callback_Apply _wrap_Swig_DirectorKeyMaker_callback_Apply
+extern void ·Swig_DirectorKeyMaker_callback_Apply();
+void
+_wrap_Swig_DirectorKeyMaker_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorKeyMaker_callback_Apply, a, n);
+}
 
 #pragma dynimport _wrap_DeleteDirectorKeyMaker _wrap_DeleteDirectorKeyMaker ""
 extern void (*_wrap_DeleteDirectorKeyMaker)(void*);
@@ -4604,6 +4786,21 @@ _swiggo_wrap_DeleteDirector_KeyMaker(void *a, int32 n)
 {
 	runtime·cgocallback(·Swiggo_DeleteDirector_KeyMaker, a, n);
 }
+
+#pragma dynimport _wrap_KeyMaker_Apply _wrap_KeyMaker_Apply ""
+extern void (*_wrap_KeyMaker_Apply)(void*);
+static void (*x_wrap_KeyMaker_Apply)(void*) = _wrap_KeyMaker_Apply;
+
+void
+·_swig_wrap_KeyMaker_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap_KeyMaker_Apply, &p);
+}
+
+
 
 #pragma dynimport _wrap_delete_KeyMaker _wrap_delete_KeyMaker ""
 extern void (*_wrap_delete_KeyMaker)(void*);
@@ -4695,6 +4892,21 @@ void
 
 
 
+#pragma dynimport _wrap_MultiValueKeyMaker_Apply _wrap_MultiValueKeyMaker_Apply ""
+extern void (*_wrap_MultiValueKeyMaker_Apply)(void*);
+static void (*x_wrap_MultiValueKeyMaker_Apply)(void*) = _wrap_MultiValueKeyMaker_Apply;
+
+void
+·_swig_wrap_MultiValueKeyMaker_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap_MultiValueKeyMaker_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap__swig_NewDirectorStopperStopper _wrap__swig_NewDirectorStopperStopper ""
 extern void (*_wrap__swig_NewDirectorStopperStopper)(void*);
 static void (*x_wrap__swig_NewDirectorStopperStopper)(void*) = _wrap__swig_NewDirectorStopperStopper;
@@ -4709,6 +4921,29 @@ void
 }
 
 
+
+#pragma dynimport _wrap__swig_DirectorStopper_upcall_Apply _wrap__swig_DirectorStopper_upcall_Apply ""
+extern void (*_wrap__swig_DirectorStopper_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorStopper_upcall_Apply)(void*) = _wrap__swig_DirectorStopper_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorStopper_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorStopper_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorStopper_callback_Apply _wrap_Swig_DirectorStopper_callback_Apply
+extern void ·Swig_DirectorStopper_callback_Apply();
+void
+_wrap_Swig_DirectorStopper_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorStopper_callback_Apply, a, n);
+}
 
 #pragma dynimport _wrap_DeleteDirectorStopper _wrap_DeleteDirectorStopper ""
 extern void (*_wrap_DeleteDirectorStopper)(void*);
@@ -4755,6 +4990,21 @@ _wrap_Swig_DirectorStopper_callback_get_description(void *a, int32 n)
 {
 	runtime·cgocallback(·Swig_DirectorStopper_callback_get_description, a, n);
 }
+
+#pragma dynimport _wrap_Stopper_Apply _wrap_Stopper_Apply ""
+extern void (*_wrap_Stopper_Apply)(void*);
+static void (*x_wrap_Stopper_Apply)(void*) = _wrap_Stopper_Apply;
+
+void
+·_swig_wrap_Stopper_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_Stopper_Apply, &p);
+}
+
+
 
 #pragma dynimport _wrap_delete_Stopper _wrap_delete_Stopper ""
 extern void (*_wrap_delete_Stopper)(void*);
@@ -4846,6 +5096,21 @@ void
 
 
 
+#pragma dynimport _wrap_SimpleStopper_Apply _wrap_SimpleStopper_Apply ""
+extern void (*_wrap_SimpleStopper_Apply)(void*);
+static void (*x_wrap_SimpleStopper_Apply)(void*) = _wrap_SimpleStopper_Apply;
+
+void
+·_swig_wrap_SimpleStopper_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_SimpleStopper_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap__swig_NewDirectorValueRangeProcessorValueRangeProcessor _wrap__swig_NewDirectorValueRangeProcessorValueRangeProcessor ""
 extern void (*_wrap__swig_NewDirectorValueRangeProcessorValueRangeProcessor)(void*);
 static void (*x_wrap__swig_NewDirectorValueRangeProcessorValueRangeProcessor)(void*) = _wrap__swig_NewDirectorValueRangeProcessorValueRangeProcessor;
@@ -4884,6 +5149,29 @@ _swiggo_wrap_DeleteDirector_ValueRangeProcessor(void *a, int32 n)
 	runtime·cgocallback(·Swiggo_DeleteDirector_ValueRangeProcessor, a, n);
 }
 
+#pragma dynimport _wrap__swig_DirectorValueRangeProcessor_upcall_Apply _wrap__swig_DirectorValueRangeProcessor_upcall_Apply ""
+extern void (*_wrap__swig_DirectorValueRangeProcessor_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorValueRangeProcessor_upcall_Apply)(void*) = _wrap__swig_DirectorValueRangeProcessor_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorValueRangeProcessor_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorValueRangeProcessor_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorValueRangeProcessor_callback_Apply _wrap_Swig_DirectorValueRangeProcessor_callback_Apply
+extern void ·Swig_DirectorValueRangeProcessor_callback_Apply();
+void
+_wrap_Swig_DirectorValueRangeProcessor_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorValueRangeProcessor_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap_delete_ValueRangeProcessor _wrap_delete_ValueRangeProcessor ""
 extern void (*_wrap_delete_ValueRangeProcessor)(void*);
 static void (*x_wrap_delete_ValueRangeProcessor)(void*) = _wrap_delete_ValueRangeProcessor;
@@ -4895,6 +5183,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_ValueRangeProcessor, &p);
+}
+
+
+
+#pragma dynimport _wrap_ValueRangeProcessor_Apply _wrap_ValueRangeProcessor_Apply ""
+extern void (*_wrap_ValueRangeProcessor_Apply)(void*);
+static void (*x_wrap_ValueRangeProcessor_Apply)(void*) = _wrap_ValueRangeProcessor_Apply;
+
+void
+·_swig_wrap_ValueRangeProcessor_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ValueRangeProcessor_Apply, &p);
 }
 
 
@@ -4970,6 +5273,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_StringValueRangeProcessor, &p);
+}
+
+
+
+#pragma dynimport _wrap_StringValueRangeProcessor_Apply _wrap_StringValueRangeProcessor_Apply ""
+extern void (*_wrap_StringValueRangeProcessor_Apply)(void*);
+static void (*x_wrap_StringValueRangeProcessor_Apply)(void*) = _wrap_StringValueRangeProcessor_Apply;
+
+void
+·_swig_wrap_StringValueRangeProcessor_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_StringValueRangeProcessor_Apply, &p);
 }
 
 
@@ -5094,6 +5412,21 @@ void
 
 
 
+#pragma dynimport _wrap_DateValueRangeProcessor_Apply _wrap_DateValueRangeProcessor_Apply ""
+extern void (*_wrap_DateValueRangeProcessor_Apply)(void*);
+static void (*x_wrap_DateValueRangeProcessor_Apply)(void*) = _wrap_DateValueRangeProcessor_Apply;
+
+void
+·_swig_wrap_DateValueRangeProcessor_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_DateValueRangeProcessor_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap_new_NumberValueRangeProcessor__SWIG_0 _wrap_new_NumberValueRangeProcessor__SWIG_0 ""
 extern void (*_wrap_new_NumberValueRangeProcessor__SWIG_0)(void*);
 static void (*x_wrap_new_NumberValueRangeProcessor__SWIG_0)(void*) = _wrap_new_NumberValueRangeProcessor__SWIG_0;
@@ -5154,6 +5487,21 @@ void
 
 
 
+#pragma dynimport _wrap_NumberValueRangeProcessor_Apply _wrap_NumberValueRangeProcessor_Apply ""
+extern void (*_wrap_NumberValueRangeProcessor_Apply)(void*);
+static void (*x_wrap_NumberValueRangeProcessor_Apply)(void*) = _wrap_NumberValueRangeProcessor_Apply;
+
+void
+·_swig_wrap_NumberValueRangeProcessor_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_NumberValueRangeProcessor_Apply, &p);
+}
+
+
+
 #pragma dynimport _wrap__swig_NewDirectorFieldProcessorFieldProcessor _wrap__swig_NewDirectorFieldProcessorFieldProcessor ""
 extern void (*_wrap__swig_NewDirectorFieldProcessorFieldProcessor)(void*);
 static void (*x_wrap__swig_NewDirectorFieldProcessorFieldProcessor)(void*) = _wrap__swig_NewDirectorFieldProcessorFieldProcessor;
@@ -5192,6 +5540,29 @@ _swiggo_wrap_DeleteDirector_FieldProcessor(void *a, int32 n)
 	runtime·cgocallback(·Swiggo_DeleteDirector_FieldProcessor, a, n);
 }
 
+#pragma dynimport _wrap__swig_DirectorFieldProcessor_upcall_Apply _wrap__swig_DirectorFieldProcessor_upcall_Apply ""
+extern void (*_wrap__swig_DirectorFieldProcessor_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorFieldProcessor_upcall_Apply)(void*) = _wrap__swig_DirectorFieldProcessor_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorFieldProcessor_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorFieldProcessor_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorFieldProcessor_callback_Apply _wrap_Swig_DirectorFieldProcessor_callback_Apply
+extern void ·Swig_DirectorFieldProcessor_callback_Apply();
+void
+_wrap_Swig_DirectorFieldProcessor_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorFieldProcessor_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap_delete_FieldProcessor _wrap_delete_FieldProcessor ""
 extern void (*_wrap_delete_FieldProcessor)(void*);
 static void (*x_wrap_delete_FieldProcessor)(void*) = _wrap_delete_FieldProcessor;
@@ -5203,6 +5574,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_FieldProcessor, &p);
+}
+
+
+
+#pragma dynimport _wrap_FieldProcessor_Apply _wrap_FieldProcessor_Apply ""
+extern void (*_wrap_FieldProcessor_Apply)(void*);
+static void (*x_wrap_FieldProcessor_Apply)(void*) = _wrap_FieldProcessor_Apply;
+
+void
+·_swig_wrap_FieldProcessor_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_FieldProcessor_Apply, &p);
 }
 
 
@@ -5938,6 +6324,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_ValueSetMatchDecider, &p);
+}
+
+
+
+#pragma dynimport _wrap_ValueSetMatchDecider_Apply _wrap_ValueSetMatchDecider_Apply ""
+extern void (*_wrap_ValueSetMatchDecider_Apply)(void*);
+static void (*x_wrap_ValueSetMatchDecider_Apply)(void*) = _wrap_ValueSetMatchDecider_Apply;
+
+void
+·_swig_wrap_ValueSetMatchDecider_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ValueSetMatchDecider_Apply, &p);
 }
 
 
@@ -7765,6 +8166,29 @@ _swiggo_wrap_DeleteDirector_MatchSpy(void *a, int32 n)
 	runtime·cgocallback(·Swiggo_DeleteDirector_MatchSpy, a, n);
 }
 
+#pragma dynimport _wrap__swig_DirectorMatchSpy_upcall_Apply _wrap__swig_DirectorMatchSpy_upcall_Apply ""
+extern void (*_wrap__swig_DirectorMatchSpy_upcall_Apply)(void*);
+static void (*x_wrap__swig_DirectorMatchSpy_upcall_Apply)(void*) = _wrap__swig_DirectorMatchSpy_upcall_Apply;
+
+void
+·_swig_wrap__swig_DirectorMatchSpy_upcall_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap__swig_DirectorMatchSpy_upcall_Apply, &p);
+}
+
+
+
+#pragma dynexport _wrap_Swig_DirectorMatchSpy_callback_Apply _wrap_Swig_DirectorMatchSpy_callback_Apply
+extern void ·Swig_DirectorMatchSpy_callback_Apply();
+void
+_wrap_Swig_DirectorMatchSpy_callback_Apply(void *a, int32 n)
+{
+	runtime·cgocallback(·Swig_DirectorMatchSpy_callback_Apply, a, n);
+}
+
 #pragma dynimport _wrap__swig_DirectorMatchSpy_upcall_Name _wrap__swig_DirectorMatchSpy_upcall_Name ""
 extern void (*_wrap__swig_DirectorMatchSpy_upcall_Name)(void*);
 static void (*x_wrap__swig_DirectorMatchSpy_upcall_Name)(void*) = _wrap__swig_DirectorMatchSpy_upcall_Name;
@@ -7860,6 +8284,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_MatchSpy, &p);
+}
+
+
+
+#pragma dynimport _wrap_MatchSpy_Apply _wrap_MatchSpy_Apply ""
+extern void (*_wrap_MatchSpy_Apply)(void*);
+static void (*x_wrap_MatchSpy_Apply)(void*) = _wrap_MatchSpy_Apply;
+
+void
+·_swig_wrap_MatchSpy_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_MatchSpy_Apply, &p);
 }
 
 
@@ -8025,6 +8464,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_ValueCountMatchSpy, &p);
+}
+
+
+
+#pragma dynimport _wrap_ValueCountMatchSpy_Apply _wrap_ValueCountMatchSpy_Apply ""
+extern void (*_wrap_ValueCountMatchSpy_Apply)(void*);
+static void (*x_wrap_ValueCountMatchSpy_Apply)(void*) = _wrap_ValueCountMatchSpy_Apply;
+
+void
+·_swig_wrap_ValueCountMatchSpy_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_ValueCountMatchSpy_Apply, &p);
 }
 
 
@@ -8563,6 +9017,51 @@ void
 
 
 
+#pragma dynimport _wrap_LatLongMetric_Apply__SWIG_0 _wrap_LatLongMetric_Apply__SWIG_0 ""
+extern void (*_wrap_LatLongMetric_Apply__SWIG_0)(void*);
+static void (*x_wrap_LatLongMetric_Apply__SWIG_0)(void*) = _wrap_LatLongMetric_Apply__SWIG_0;
+
+void
+·_swig_wrap_LatLongMetric_Apply__SWIG_0(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_LatLongMetric_Apply__SWIG_0, &p);
+}
+
+
+
+#pragma dynimport _wrap_LatLongMetric_Apply__SWIG_1 _wrap_LatLongMetric_Apply__SWIG_1 ""
+extern void (*_wrap_LatLongMetric_Apply__SWIG_1)(void*);
+static void (*x_wrap_LatLongMetric_Apply__SWIG_1)(void*) = _wrap_LatLongMetric_Apply__SWIG_1;
+
+void
+·_swig_wrap_LatLongMetric_Apply__SWIG_1(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_LatLongMetric_Apply__SWIG_1, &p);
+}
+
+
+
+#pragma dynimport _wrap_LatLongMetric_Apply__SWIG_2 _wrap_LatLongMetric_Apply__SWIG_2 ""
+extern void (*_wrap_LatLongMetric_Apply__SWIG_2)(void*);
+static void (*x_wrap_LatLongMetric_Apply__SWIG_2)(void*) = _wrap_LatLongMetric_Apply__SWIG_2;
+
+void
+·_swig_wrap_LatLongMetric_Apply__SWIG_2(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_LatLongMetric_Apply__SWIG_2, &p);
+}
+
+
+
 #pragma dynimport _wrap_LatLongMetric_name _wrap_LatLongMetric_name ""
 extern void (*_wrap_LatLongMetric_name)(void*);
 static void (*x_wrap_LatLongMetric_name)(void*) = _wrap_LatLongMetric_name;
@@ -8634,6 +9133,51 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_GreatCircleMetric, &p);
+}
+
+
+
+#pragma dynimport _wrap_GreatCircleMetric_Apply__SWIG_0 _wrap_GreatCircleMetric_Apply__SWIG_0 ""
+extern void (*_wrap_GreatCircleMetric_Apply__SWIG_0)(void*);
+static void (*x_wrap_GreatCircleMetric_Apply__SWIG_0)(void*) = _wrap_GreatCircleMetric_Apply__SWIG_0;
+
+void
+·_swig_wrap_GreatCircleMetric_Apply__SWIG_0(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_GreatCircleMetric_Apply__SWIG_0, &p);
+}
+
+
+
+#pragma dynimport _wrap_GreatCircleMetric_Apply__SWIG_1 _wrap_GreatCircleMetric_Apply__SWIG_1 ""
+extern void (*_wrap_GreatCircleMetric_Apply__SWIG_1)(void*);
+static void (*x_wrap_GreatCircleMetric_Apply__SWIG_1)(void*) = _wrap_GreatCircleMetric_Apply__SWIG_1;
+
+void
+·_swig_wrap_GreatCircleMetric_Apply__SWIG_1(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_GreatCircleMetric_Apply__SWIG_1, &p);
+}
+
+
+
+#pragma dynimport _wrap_GreatCircleMetric_Apply__SWIG_2 _wrap_GreatCircleMetric_Apply__SWIG_2 ""
+extern void (*_wrap_GreatCircleMetric_Apply__SWIG_2)(void*);
+static void (*x_wrap_GreatCircleMetric_Apply__SWIG_2)(void*) = _wrap_GreatCircleMetric_Apply__SWIG_2;
+
+void
+·_swig_wrap_GreatCircleMetric_Apply__SWIG_2(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE) + SWIG_PARM_SIZE + 8];
+} p)
+
+{
+  runtime·cgocall(x_wrap_GreatCircleMetric_Apply__SWIG_2, &p);
 }
 
 
@@ -8874,6 +9418,21 @@ void
 
 {
   runtime·cgocall(x_wrap_delete_LatLongDistanceKeyMaker, &p);
+}
+
+
+
+#pragma dynimport _wrap_LatLongDistanceKeyMaker_Apply _wrap_LatLongDistanceKeyMaker_Apply ""
+extern void (*_wrap_LatLongDistanceKeyMaker_Apply)(void*);
+static void (*x_wrap_LatLongDistanceKeyMaker_Apply)(void*) = _wrap_LatLongDistanceKeyMaker_Apply;
+
+void
+·_swig_wrap_LatLongDistanceKeyMaker_Apply(struct {
+  uint8 x[SWIG_PARM_SIZE + SWIG_PARM_SIZE + (2 * SWIG_PARM_SIZE)];
+} p)
+
+{
+  runtime·cgocall(x_wrap_LatLongDistanceKeyMaker_Apply, &p);
 }
 
 
